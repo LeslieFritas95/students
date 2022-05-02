@@ -118,7 +118,7 @@ function writeListToDocument(listaArray) {
 
         li.classList.add('list-element');
 
-        const icon = lista.genere === 'femmina' ? './icons8-cerchiato-utente-donna-tipo-di-pelle-4-40.png' : './icons8-cerchiato-utente-maschio-tipo-di-pelle-4-40.png'
+        const icon = lista.genere === 'Femmina' ? './icons8-cerchiato-utente-donna-tipo-di-pelle-4-40.png' : './icons8-cerchiato-utente-maschio-tipo-di-pelle-4-40.png'
 
        /*   li.innerHTML = `
         <img class="list-element-img" width="30" src="${icon}"> 
